@@ -16,7 +16,7 @@ def fun(x, t, y):
 A = 2
 sigma = 0.1
 omega = 0.1 * 2 * np.pi
-x_true = np.array([A, sigma, omega])
+x_true = np.residuals([A, sigma, omega])
 noise = 0.1
 t_min = 0
 t_max = 30
